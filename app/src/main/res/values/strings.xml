@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">HWork06_Threading</string>
+    <string name="app_name">HWork08_Threading</string>
+    <string name="text_asynctask_start">AsyncTask START</string>
+    <string name="text_asynctask_finish">AsyncTask FINISH</string>
+    <string name="text_thread_start">Thread START</string>
+    <string name="text_thread_finish">Thread FINISH</string>
+    <string name="text_executor_service_start">ExecutorService START</string>
+    <string name="text_executor_service_finish">ExecutorService FINISH</string>
+    <string name="text_btn_thread">Thread</string>
+    <string name="text_btn_asynctask">AsyncTask</string>
+    <string name="text_btn_executor_service">ExecutorService</string>
 </resources>
