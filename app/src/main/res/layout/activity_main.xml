@@ -13,58 +13,78 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/button_Thread"
-            android:onClick="onbtnClick"
+            android:id="@+id/button_thread"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:onClick="onbtnClick"
             android:text="@string/text_btn_thread"/>
 
         <TextView
             android:id="@+id/text_view_thread"
+            style="@style/text_view_style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/text_view_style"/>
+            android:layout_height="wrap_content"/>
     </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_thread"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/progress_bar_size"
+        android:visibility="invisible"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <Button
-            android:onClick="onbtnClick"
-            android:id="@+id/button_AsyncTask"
+            android:id="@+id/button_async_task"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:onClick="onbtnClick"
             android:text="@string/text_btn_asynctask"/>
 
         <TextView
-            android:id="@+id/text_view_asynctask"
+            android:id="@+id/text_view_async_task"
+            style="@style/text_view_style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/text_view_style"/>
+            android:layout_height="wrap_content"/>
     </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_async_task"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/progress_bar_size"
+        android:visibility="invisible"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/button_ExecutorService"
-            android:onClick="onbtnClick"
+            android:id="@+id/button_executor_service"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:onClick="onbtnClick"
             android:text="@string/text_btn_executor_service"/>
 
         <TextView
             android:id="@+id/text_view_executor_service"
+            style="@style/text_view_style"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/text_view_style"/>
+            android:layout_height="wrap_content"/>
 
 
     </LinearLayout>
 
+    <ProgressBar
+        android:id="@+id/progress_bar_executor_service"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/progress_bar_size"
+        android:visibility="invisible"/>
 </LinearLayout>
